@@ -1,25 +1,25 @@
 {
   "about": [
     {
-      "aboutlogo": "null",
+      "aboutlogo": "",
       "title": "On-time Delivery",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
     },
 
     {
-      "aboutlogo": "null",
+      "aboutlogo": "",
       "title": "Parcels",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
     },
 
     {
-      "aboutlogo": "null",
+      "aboutlogo": "",
       "title": "Quality Check",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
     },
 
     {
-      "aboutlogo": "null",
+      "aboutlogo": "",
       "title": "Customer Service",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
     }
@@ -27,7 +27,7 @@
 
   "article": [
     {
-      "img": "null",
+      "img": "",
       "genre": "travel",
       "title": "Surfing in Maldives",
       "body": "It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide- And I sit in wonder, dreaming"
@@ -39,24 +39,24 @@
       "collectionnumber": "10",
       "title": "Off-the-grid-experiences",
       "author": "Melanie S.",
-      "pfp": "null",
-      "backgroundphoto": "null"
+      "pfp": "",
+      "backgroundphoto": ""
     },
 
     {
       "collectionnumber": "1",
       "title": "Shapes, triangles & fashion",
       "author": "Saraha F.",
-      "pfp": "null",
-      "backgroundphoto": "null"
+      "pfp": "",
+      "backgroundphoto": ""
     },
 
     {
       "collectionnumber": "123",
       "title": "In-depth architecture",
       "author": "Benhour",
-      "pfp": "null",
-      "backgroundphoto": "null"
+      "pfp": "",
+      "backgroundphoto": ""
     }
   ],
 
@@ -64,10 +64,10 @@
     {
       "title": "Outdoor Experience",
       "body": "It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide- And I sit in wonder, dreaming beside.",
-      "img1": "null",
-      "img2": "null",
-      "img3": "null",
-      "img4": "null"
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": ""
     }
   ],
 
@@ -75,69 +75,76 @@
     {
       "genre": "Architecture",
       "body": "Lorom ipsum doror sit amet, consectutur adipisicing elit. Aliquam aliquam diam sit amet elit hendrerit.",
-      "backgroundimage": "null"
+      "backgroundimage": ""
     },
 
     {
       "genre": "Greenery",
       "body": "Lorom ipsum doror sit amet, consectutur adipisicing elit. Aliquam aliquam diam sit amet elit hendrerit.",
-      "backgroundimage": "null"
+      "backgroundimage": ""
     },
 
     {
       "genre": "Beaches",
       "body": "Lorom ipsum doror sit amet, consectutur adipisicing elit. Aliquam aliquam diam sit amet elit hendrerit.",
-      "backgroundimage": "null"
+      "backgroundimage": ""
     },
 
     {
       "genre": "Travel & leisure",
       "body": "Lorom ipsum doror sit amet, consectutur adipisicing elit. Aliquam aliquam diam sit amet elit hendrerit.",
-      "backgroundimage": "null"
+      "backgroundimage": ""
     }
   ],
 
   "latestnewsarticles": [
     {
       "title": "Nature",
+      "titlecolour": "#40BE65",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit.",
-      "image": "null"
+      "image": "https://i.pinimg.com/564x/93/db/7c/93db7c2dea28299e3d6de16069649e77.jpg"
     },
 
     {
       "title": "Animal Kingdom",
+      "titlecolour": "#0072CA",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit.",
-      "image": "null"
+      "image": ""
     },
 
     {
       "title": "Technology",
+      "titlecolour": "#DDAD5E",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit.",
-      "image": "null"
+      "image": ""
     },
 
     {
       "title": "Explore",
+      "titlecolour": "#FF4967",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit.",
-      "image": "null"
+      "image": ""
     },
 
     {
       "title": "Africa Zoo",
+      "titlecolour": "#0976CB",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit.",
-      "image": "null"
+      "image": ""
     },
 
     {
       "title": "Food & lifestyle",
+      "titlecolour": "#E44385",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit.",
-      "image": "null"
+      "image": ""
     },
 
     {
       "title": "Fashion",
+      "titlecolour": "#0AACDC",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit.",
-      "image": "null"
+      "image": ""
     }
   ],
 
@@ -167,24 +174,24 @@
     {
       "title": "Must see places for summer",
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit. Aliquam aliquam diam sit amet elit.",
-      "background": "null"
+      "background": ""
     },
 
     {
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar.",
-      "background": "null"
+      "background": ""
     },
 
     {
       "body": "Lorum ipsum dolor sit amet, consectutur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar.",
-      "background": "null"
+      "background": ""
     }
   ],
 
   "vrarticle": [
     {
       "title": "Virtual Reality",
-      "img": "null",
+      "img": "",
       "genre": "Technology"
     }
   ]
