@@ -1,0 +1,59 @@
+.collectionslist {
+  grid-area: collections;
+  display: flex;
+  gap: 25px;
+}
+
+.collection {
+  border-radius: 8px;
+  display: block;
+  height: 375px;
+  width: 100%;
+  background-color: white;
+  text-decoration: none;
+}
+
+.collectionbackground {
+  background-image: url("https://i.pinimg.com/564x/85/31/2c/85312ce0de707586aa22c4b60f986d94.jpg");
+  object-fit: cover;
+  background-position: center center;
+  height: 66%;
+  text-align: left;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.collectionbackground p {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 25px 30px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.collectiontext {
+  position: relative;
+}
+
+.collectiontext h2 {
+  color: black;
+  font-size: 16px;
+  padding-top: 50px;
+  margin: 0px;
+}
+
+.collectiontext p {
+  color: #7b8591;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.collectiontext img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
