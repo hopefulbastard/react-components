@@ -1,0 +1,27 @@
+{
+  "about": [
+    {
+      "aboutlogo": "",
+      "title": "On-time Delivery",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
+    },
+
+    {
+      "aboutlogo": "",
+      "title": "Parcels",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
+    },
+
+    {
+      "aboutlogo": "",
+      "title": "Quality Check",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
+    },
+
+    {
+      "aboutlogo": "",
+      "title": "Customer Service",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
+    }
+  ]
+}
