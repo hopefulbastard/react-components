@@ -3,6 +3,8 @@ import LatestNews from "./latestnews";
 import Latestnews2 from "./latestnews2";
 import Collections from "./Collections";
 import About from "./About";
+import Article from "./Article";
+import Galleryarticle from "./Galleryarticle";
 import { useEffect, useState } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -44,6 +46,8 @@ function App() {
   return (
     <div className="App">
       <div className="grid">
+        <Article />
+        <Galleryarticle />
         <About />
         <Collections />
         <LatestNews />

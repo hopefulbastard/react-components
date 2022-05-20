@@ -1,13 +1,12 @@
 .aboutlist {
   grid-area: about;
-  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
 .about {
-  padding: 30px;
+  text-decoration: none;
   text-align: right;
   display: block;
   height: 270px;
@@ -17,18 +16,25 @@
   border-radius: 8px;
 }
 
+.about div {
+  padding: 30px;
+}
+
 .about h2 {
+  margin: 0px;
   text-align: left;
   font-size: 16px;
   text-transform: uppercase;
 }
 
 .about p {
+  padding-top: 15px;
+  margin: 0px;
   text-align: left;
 }
 
 .aboutlogo {
-  font-size: 75px;
+  font-size: 70px;
   text-align: right;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }

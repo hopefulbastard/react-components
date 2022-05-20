@@ -1,0 +1,41 @@
+.article {
+  grid-area: article;
+  text-decoration: none;
+  display: block;
+  width: auto;
+  height: 470px;
+  color: black;
+  background-color: white;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.articlebackground {
+  background-image: url(https://i.pinimg.com/564x/fe/ae/31/feae313e0537c223a3638d4a210c41a6.jpg);
+  background-position: center center;
+  object-fit: fill;
+  height: 50%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.articletext {
+  padding: 30px 40px 50px;
+}
+
+.articletext h2 {
+  margin: 0px;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+
+.articletext h3 {
+  letter-spacing: 3px;
+  margin: 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.articletext p {
+  margin: 0px;
+  font-size: 15px;
+}

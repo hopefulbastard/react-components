@@ -23,14 +23,18 @@ code {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: repeat(10, auto);
   grid-template-areas:
-    ". . ."
+    "article galleryarticle galleryarticle"
     "about about about"
     "collections collections collections"
     ". . latestnews"
     "latestnews2 latestnews2 latestnews"
-    ". . latestnews";
+    ". . latestnews"
+    ". . ."
+    ". . ."
+    ". . ."
+    ". . .";
   justify-content: space-between;
   align-items: center;
   gap: 25px;
