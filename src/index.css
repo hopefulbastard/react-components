@@ -30,11 +30,11 @@ code {
     "collections collections collections"
     ". . latestnews"
     "latestnews2 latestnews2 latestnews"
-    ". . latestnews"
-    ". . ."
-    ". . ."
-    ". . ."
-    ". . .";
+    "imagearticle . latestnews"
+    "imagearticle . ."
+    "imagearticle . ."
+    "imagearticle . ."
+    "imagearticle . .";
   justify-content: space-between;
   align-items: center;
   gap: 25px;

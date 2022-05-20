@@ -5,6 +5,8 @@ import Collections from "./Collections";
 import About from "./About";
 import Article from "./Article";
 import Galleryarticle from "./Galleryarticle";
+import Imagearticle from "./Imagearticle";
+import Buttons from "./Buttons";
 import { useEffect, useState } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -52,6 +54,8 @@ function App() {
         <Collections />
         <LatestNews />
         <Latestnews2 />
+        <Imagearticle />
+        <Buttons />
 
         <div className="moregrid"></div>
       </div>

@@ -1,0 +1,32 @@
+.buttonslist {
+  display: flex;
+  gap: 35px;
+}
+
+.button {
+  height: 170px;
+  width: 170px;
+  display: block;
+  background-color: #53bbb3;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttonimg {
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.button h2 {
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0px;
+}

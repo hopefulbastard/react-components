@@ -1,0 +1,35 @@
+.imagearticlelist {
+  gap: 25px;
+  grid-area: imagearticle;
+}
+
+.imagearticle {
+  display: block;
+  text-decoration: none;
+  color: white;
+  height: 175px;
+  width: 370px;
+  border-radius: 8px;
+  background-image: url(https://i.pinimg.com/750x/67/56/6b/67566baa4bc6076ca6d9b59612842098.jpg);
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 30px;
+}
+
+.imagearticle h3 {
+  padding-top: 30px;
+  padding-left: 30px;
+  letter-spacing: 3px;
+  margin: 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.imagearticle p {
+  padding-top: 30px;
+  padding-left: 30px;
+  margin: 0px;
+  font-size: 15px;
+}
