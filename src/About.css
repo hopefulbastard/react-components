@@ -1,7 +1,34 @@
+.aboutlist {
+  grid-area: about;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
 .about {
+  padding: 30px;
+  text-align: right;
   display: block;
   height: 270px;
   width: 270px;
+  color: white;
   background-color: #005aee;
   border-radius: 8px;
+}
+
+.about h2 {
+  text-align: left;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.about p {
+  text-align: left;
+}
+
+.aboutlogo {
+  font-size: 75px;
+  text-align: right;
+  padding-bottom: 50px;
 }

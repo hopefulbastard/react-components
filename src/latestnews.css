@@ -66,8 +66,10 @@
 }
 
 .latestnewslist2 {
+  grid-area: latestnews2;
   width: 100%;
   display: flex;
   border-radius: 8px;
   background-color: white;
+  align-items: center;
 }

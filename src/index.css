@@ -4,10 +4,6 @@ body {
   background-color: #eaeaea;
   margin: 0 auto;
   font-family: "Nunito", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  max-width: 1280px;
-  padding: 30px;
 }
 
 code {
@@ -16,15 +12,18 @@ code {
 }
 
 .App {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 55px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.grid3 {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 475px 275px 375px 475px 175px 175px;
+  grid-template-rows: auto auto auto auto auto auto;
   grid-template-areas:
     ". . ."
     "about about about"
@@ -33,5 +32,6 @@ code {
     "latestnews2 latestnews2 latestnews"
     ". . latestnews";
   justify-content: space-between;
+  align-items: center;
   gap: 25px;
 }

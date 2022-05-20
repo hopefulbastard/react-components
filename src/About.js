@@ -1,30 +1,29 @@
 import "./About.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import {
-  faTruckFast,
-  faBoxesPacking,
-  faClipboardList,
-  faPhone,
-  faBezierCurve,
-  faBook,
-} from "@fortawesome/free-solid-svg-icons";
-
-library.add(
-  fab,
-  faTruckFast,
-  faBoxesPacking,
-  faClipboardList,
-  faPhone,
-  faBezierCurve,
-  faBook
-);
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
   return (
     <div className="aboutlist">
       <a className="about">
-        <FontAwesomeIcon icon="faTruckFast" />
+        <FontAwesomeIcon className="aboutlogo" icon="fa-solid fa-truck-fast" />
+        <h2>On-time delivery</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.</p>
+      </a>
+
+      <a className="about">
+        <FontAwesomeIcon className="aboutlogo" icon="fa-solid fa-truck-fast" />
+        <h2>On-time delivery</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.</p>
+      </a>
+
+      <a className="about">
+        <FontAwesomeIcon className="aboutlogo" icon="fa-solid fa-truck-fast" />
+        <h2>On-time delivery</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.</p>
+      </a>
+
+      <a className="about">
+        <FontAwesomeIcon className="aboutlogo" icon="fa-solid fa-truck-fast" />
         <h2>On-time delivery</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.</p>
       </a>

@@ -1,7 +1,7 @@
 {
   "about": [
     {
-      "aboutlogo": "",
+      "aboutlogo": "fa-solid fa-truck-fast",
       "title": "On-time Delivery",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
     },
