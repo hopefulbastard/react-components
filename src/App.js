@@ -30,25 +30,44 @@ library.add(
 );
 
 function App() {
-  const [Latestnewsarticle, setLatestnewsarticle] = useState(null);
-
-  /*useEffect(() => {
+  const [data, setData] = useState([]);
+  const getData = () => {
     fetch(
       "https://raw.githubusercontent.com/hopefulbastard/react-components/master/data/database.json"
     )
-      .then((res) => {
-        return res.json();
+      .then(function (response) {
+        console.log(response);
+        return response.json();
       })
-      .then((data) => {
-        console.log(data);
-        setLatestnewsarticle(data);
+      .then(function (myJson) {
+        console.log(myJson);
+        setData(myJson);
       });
-  }, []);*/
+  };
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <div className="App">
       <div className="grid">
-        <Article />
+        {data.length > 0 &&
+          data.map((article) => (
+            <a href="#" className="article">
+              <div
+                className="articlebackground"
+                style={{
+                  backgroundImage: `url({article.img})`,
+                }}
+              ></div>
+              <div className="articletext">
+                <h3>{article.genre}</h3>
+                <h2>{article.title}</h2>
+                <p>{article.body}</p>
+              </div>
+            </a>
+          ))}
+
         <Galleryarticle />
         <About />
         <Collections />
